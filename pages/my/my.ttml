@@ -1,0 +1,69 @@
+<!-- c:\Users\阿斗\miniprograms\试做2\pages\my\my.ttml -->
+<view class="body">
+    <view class="title">
+        <view class="img">
+            <image src="/pages/index/images/3.jpg"></image>
+        </view>
+        <view>
+            <text>用户名</text>
+        </view>
+    </view>
+    <view class="card">
+        <view class="card_left">
+            <view class="card_left_top">
+                <view>大雪人会员</view>
+            </view>
+            <view class="card_left_bottom">
+                <view>甜蜜值： 0/1000</view>
+            </view>
+        </view>
+        <view class="card_right">
+            <image src="/pages/index/images/3.jpg"></image>
+        </view>
+    </view>
+    <view class="main">
+        <view class="main_top">
+            <view class="mini_card">
+                <view>
+                    <text>999</text>
+                    <text>雪王币</text>
+                </view>
+                <image src="/pages/index/images/积分.png"></image>
+            </view>
+            <view class="mini_card">
+                <view>
+                    <text>0</text>
+                    <text>优惠券</text>
+                </view>
+                <image src="/pages/index/images/优惠券.png"></image>
+            </view>
+        </view>
+        <ul class="main_bottom">
+            <view>兑换码</view>
+            <view>隐私政策</view>
+            <view>用户服务协议</view>
+            <view>经营信息公示</view>
+            <view>咨询加盟</view>
+        </ul>
+    </view>
+</view>
+<view url="" class="nav">
+    <navigator class="nav_1" open-type="navigate" url="/pages/index/index?params=navigateTo">
+        <button type="default">
+            <image src="/pages/index/images/首页选中.png"></image>
+            <text>首页</text>
+        </button>
+    </navigator>
+    <navigator class="nav_2" open-type="navigate" url="/pages/order/order?params=navigateTo">
+        <button type="default">
+            <image src="/pages/index/images/订单选中.png"></image>
+            <text>订单</text>
+        </button>
+    </navigator>
+    <navigator class="nav_3" open-type="navigate" url="/pages/my/my?params=navigateTo">
+        <button type="default">
+            <image src="/pages/index/images/我的选中.png"></image>
+            <text>我的</text>         
+        </button>
+    </navigator>
+</view>

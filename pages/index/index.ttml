@@ -1,0 +1,76 @@
+<view class="header">
+    
+</view>
+<view class="main">
+    <view class="top">
+        <view>
+            <image src="/pages/index/images/3.jpg"></image>
+        </view>
+        <view class="top_mid">
+            大雪人会员
+        </view>
+        <view>
+            <image src="/pages/index/images/3.jpg"></image>
+        </view>
+    </view>
+<view class="mid">
+        <view class="left">           
+            <text>自取</text>
+            <image src="/pages/index/images/bg1.png"></image>
+        </view>
+        <view class="right">
+            <text>外卖</text>
+            <image src="/pages/index/images/bg2.png"></image>
+        </view>
+</view>
+<view class="bottom">
+    <view class="left">
+        今天喝点啥
+    </view>
+    <view class="mid_2">
+        冰淇淋情话
+    </view>
+    <view class="right">
+        0元兑好物
+    </view>
+</view>
+</view>
+<view class="footer">
+    <!-- <ul class="nav">
+        <li>
+            <a>
+                首页
+            </a>
+        </li>
+        <li>
+            <a>
+                首页
+            </a>
+        </li>
+        <li>
+            <a>
+                首页
+            </a>
+        </li>
+    </ul> -->
+    <view url="" class="nav">
+        <navigator class="nav_1" open-type="navigate" url="/pages/index/index?params=navigateTo">
+            <button type="default">
+                <image src="/pages/index/images/首页选中.png"></image>
+                <text>首页</text>
+            </button>
+        </navigator>
+        <navigator class="nav_2" open-type="navigate" url="/pages/order/order?params=navigateTo">
+            <button type="default">
+                <image src="/pages/index/images/订单选中.png"></image>
+                <text>订单</text>
+            </button>
+        </navigator>
+        <navigator class="nav_3" open-type="navigate" url="/pages/my/my?params=navigateTo">
+            <button type="default">
+                <image src="/pages/index/images/我的选中.png"></image>
+                <text>我的</text>         
+            </button>
+        </navigator>
+    </view>
+</view>

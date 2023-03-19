@@ -1,0 +1,140 @@
+.header {
+  height: 250px;
+  text-align: center;
+  background: linear-gradient(rgb(255, 174, 69),rgb(253, 253, 253));
+  position: relative;
+  border-radius:10px;
+}
+.top{
+  width: 90%;
+  margin: 0 auto;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  top: -40px;
+  border-radius:10px;
+  display: flex;
+  flex-flow: row;
+  box-shadow: 0px 5px 10px rgb(209, 209, 209);
+}
+.top image{
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+.top view{
+  flex: 1;
+  margin: auto 0px;
+}
+.top .top_mid{
+  flex: 3;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.mid{
+  width: 90%;
+  margin: 0 auto;
+  height: 200px;
+  position: relative;
+  top: -20px;
+  display: flex;
+  flex-flow: row;
+}
+.mid .left{
+  margin-right: 10px;
+  height: 200px;
+  border-radius:10px;
+  flex: 1;
+  box-shadow: 0px 5px 10px rgb(209, 209, 209);
+  font-size: 26px;
+  font-weight: bold;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+}
+.mid image{
+  width: 110%;
+  height: 110%;
+}
+.mid .right{
+  margin-left: 10px;
+  height: 200px;
+  border-radius:10px;
+  background-color: aqua;
+  flex: 1;
+  background-color: #fffaee;
+  box-shadow: 0px 5px 10px rgb(209, 209, 209);
+  font-size: 26px;
+  font-weight: bold;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+}
+.bottom{
+  width: 90%;
+  margin: 0 auto;
+  height: 80px;
+  position: relative;
+  top: 0px;
+  border-radius:10px;
+  display: flex;
+  flex-flow: row;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.bottom .left{
+  background-color: white;
+  margin: 5px;
+  flex: 1;
+  border-radius:10px;
+  box-shadow: 0px 5px 10px rgb(209, 209, 209);
+}
+.bottom .mid_2{
+  background-color: white;
+  margin: 5px;
+  flex: 1;
+  border-radius:10px;
+  box-shadow: 0px 5px 10px rgb(209, 209, 209);
+}
+.bottom .right{
+  background-color: white;
+  margin: 5px;
+  flex: 1;
+  border-radius:10px;
+  box-shadow: 0px 5px 10px rgb(209, 209, 209);
+}
+.nav{
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  display: flex;
+  flex-flow: row;
+  top: 92%;
+  border-top: 1px gray solid;
+}
+.nav navigator{
+  /* display: block; */
+  background-color: white;
+  flex: 1;
+  text-align: center;
+  margin: 5px 0;
+}
+.nav navigator button::after{
+  list-style: none;
+  border: 0px;
+}
+.nav navigator button{
+  background-color:white;
+  display: flex;
+  flex-flow: column;
+  font-size: 10px;
+}
+.nav navigator button image{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}

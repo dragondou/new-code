@@ -1,0 +1,45 @@
+<!-- c:\Users\阿斗\miniprograms\试做2\pages\order\order.ttml -->
+<view class="body">
+    <view class="main">
+        <ul class="card">
+            <view class="title">
+                    <view class="title_left">蜜雪冰城（理工店）</view>
+                    <view class="title_right">已完成</view>
+            </view>
+            <view class="content">
+                    <image src="/pages/index/images/res_img_1.jpg">
+                        
+                    </image>
+            </view>
+            <view class="tip">
+                    <view class="tip_left">
+                        2023-3-15 19:00:25
+                    </view>
+                    <view class="tip_right">
+                        ￥6
+                    </view>
+            </view>
+        </ul>
+    </view>
+</view>
+
+<view url="" class="nav">
+    <navigator class="nav_1" open-type="navigate" url="/pages/index/index?params=navigateTo">
+        <button type="default">
+            <image src="/pages/index/images/首页选中.png"></image>
+            <text>首页</text>
+        </button>
+    </navigator>
+    <navigator class="nav_2" open-type="navigate" url="/pages/order/order?params=navigateTo">
+        <button type="default">
+            <image src="/pages/index/images/订单选中.png"></image>
+            <text>订单</text>
+        </button>
+    </navigator>
+    <navigator class="nav_3" open-type="navigate" url="/pages/my/my?params=navigateTo">
+        <button type="default">
+            <image src="/pages/index/images/我的选中.png"></image>
+            <text>我的</text>         
+        </button>
+    </navigator>
+</view>
